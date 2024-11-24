@@ -632,8 +632,8 @@ require('lazy').setup({
         --
 
         lua_ls = {
-          cmd = { '/data/data/com.termux/files/usr/share/lua-language-server/bin/lua-language-server' },
-          filetypes = { '*.lua' },
+          -- cmd = { 'lua-language-server' },
+          -- filetypes = { '*.lua' },
           -- capabilities = {},
           settings = {
             Lua = {
